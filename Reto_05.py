@@ -7,22 +7,15 @@
 
 def convertidor_binario():
 
+    binario = []
+
     dividendo = int(input("Ingresa cualquier número entero: "))
 
-    cociente = dividendo / 2
-    residuo = dividendo % 2
-    
-
-    while cociente > 0:
-
-        dividento = cociente
-
-        cociente = dividendo / 2
+    while dividendo !=0:
         residuo = dividendo % 2
+        binario.append(residuo)
+        dividendo = dividendo // 2
 
-        print(cociente)
-        
-        print(residuo)
-
+    print(binario[::-1])
 
 convertidor_binario()
