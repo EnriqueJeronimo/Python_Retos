@@ -2,8 +2,8 @@
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-list[3]  = list[3]* 2
-list[6]  = list[6]* 2
-list[9]  = list[9]* 2
+list[3]  *= 2
+list[6]  *= 2
+list[8]  *= 2
 
 print(list)
