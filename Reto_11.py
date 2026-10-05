@@ -20,5 +20,5 @@ jugadoresFut = {1 : "Casillas", 15 : "Ramos", 3 : "Pique", 5 : "Puyol", 11 : "Ca
 
 ingresarNum = int(input("Ingresa el número del jugador: "))
 
-if jugadoresFut.get(ingresarNum): print(jugadoresFut.get(ingresarNum))
+if jugadoresFut.get(ingresarNum): print(jugadoresFut[ingresarNum])
 else: print("Jugador no encontrado")

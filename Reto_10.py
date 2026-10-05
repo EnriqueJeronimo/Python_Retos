@@ -6,5 +6,5 @@ paisCapitales = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Salvado
 
 ingresarPais = input("Ingresa el nombre de un país: ").title()
 
-if paisCapitales.get(ingresarPais): print(paisCapitales.get(ingresarPais))
+if paisCapitales.get(ingresarPais): print(paisCapitales[ingresarPais])
 else: print("Este país no se encuentra")
